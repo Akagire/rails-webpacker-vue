@@ -1,5 +1,16 @@
 # Rails5 + Webpacker + Vue Deployed Project
 
+When you verify this project, please run following command,
+
+```
+docker-compose build
+docker-compose up
+docker-compose run web rails db:create
+```
+
+and access `http://localhost:3000`. you can see Rails initial screen.<br>
+And access `http://localhost:3000/vue`, you can see Vue sample page.
+
 Things you may want to cover:
 
 * Ruby version
