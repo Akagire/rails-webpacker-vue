@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended",
+        "standard"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", "always-multiline"],
+        "object-shorthand": "error",
+        "space-before-function-paren": ["error", "never"]
+    }
+}

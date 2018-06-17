@@ -1,0 +1,37 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+  TargetRailsVersion: 5.2.0
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+    - 'app/**/*.rb'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bundle_bin/*'
+    - 'bin/*'
+    - 'spec/*'
+    - 'spec/factories/*'
+    - 'spec/support/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+  DisplayCopNames: true
+
+Rails:
+  Enabled: true
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
